@@ -1,0 +1,283 @@
+{
+  "campaignVersion": "1.4.0",
+  "totalLevels": 20,
+  "worlds": [
+    {
+      "worldId": 1,
+      "name": "Beginner",
+      "theme": "Studio Gray",
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "worldId": 2,
+      "name": "Easy",
+      "theme": "Pastel Peach",
+      "levels": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "worldId": 3,
+      "name": "Normal",
+      "theme": "Pastel Baby Blue",
+      "levels": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "worldId": 4,
+      "name": "Hard",
+      "theme": "Pastel Lavender",
+      "levels": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "worldId": 5,
+      "name": "Expert",
+      "theme": "Pastel Mint/Rose",
+      "levels": [
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "levelId": 1,
+      "difficulty": "EASY",
+      "dimensions": "4x6",
+      "snakes": 2,
+      "obstacles": 1,
+      "minMoves": 15,
+      "parMoves": 15,
+      "explored": 27,
+      "checksum": "1d2d25044a132157..."
+    },
+    {
+      "levelId": 2,
+      "difficulty": "EASY",
+      "dimensions": "4x7",
+      "snakes": 3,
+      "obstacles": 2,
+      "minMoves": 22,
+      "parMoves": 22,
+      "explored": 50,
+      "checksum": "676acc64cf3ad5ab..."
+    },
+    {
+      "levelId": 3,
+      "difficulty": "EASY",
+      "dimensions": "4x7",
+      "snakes": 4,
+      "obstacles": 2,
+      "minMoves": 31,
+      "parMoves": 31,
+      "explored": 408,
+      "checksum": "7bd7816a1b8f7206..."
+    },
+    {
+      "levelId": 4,
+      "difficulty": "EASY",
+      "dimensions": "4x7",
+      "snakes": 4,
+      "obstacles": 1,
+      "minMoves": 24,
+      "parMoves": 25,
+      "explored": 173,
+      "checksum": "a4d50d4adfaf96aa..."
+    },
+    {
+      "levelId": 5,
+      "difficulty": "EASY",
+      "dimensions": "4x7",
+      "snakes": 3,
+      "obstacles": 2,
+      "minMoves": 15,
+      "parMoves": 18,
+      "explored": 55,
+      "checksum": "25f83550d67b8ba7..."
+    },
+    {
+      "levelId": 6,
+      "difficulty": "EASY",
+      "dimensions": "4x7",
+      "snakes": 3,
+      "obstacles": 2,
+      "minMoves": 14,
+      "parMoves": 16,
+      "explored": 46,
+      "checksum": "84d61cb41cd67b07..."
+    },
+    {
+      "levelId": 7,
+      "difficulty": "EASY",
+      "dimensions": "4x7",
+      "snakes": 3,
+      "obstacles": 2,
+      "minMoves": 19,
+      "parMoves": 19,
+      "explored": 46,
+      "checksum": "c569da44f64e1b5f..."
+    },
+    {
+      "levelId": 8,
+      "difficulty": "EASY",
+      "dimensions": "4x7",
+      "snakes": 3,
+      "obstacles": 2,
+      "minMoves": 12,
+      "parMoves": 20,
+      "explored": 24,
+      "checksum": "e577e1b7f7772639..."
+    },
+    {
+      "levelId": 9,
+      "difficulty": "MEDIUM",
+      "dimensions": "4x7",
+      "snakes": 4,
+      "obstacles": 2,
+      "minMoves": 20,
+      "parMoves": 24,
+      "explored": 87,
+      "checksum": "2628ac3219dfc8c4..."
+    },
+    {
+      "levelId": 10,
+      "difficulty": "MEDIUM",
+      "dimensions": "4x7",
+      "snakes": 4,
+      "obstacles": 3,
+      "minMoves": 18,
+      "parMoves": 26,
+      "explored": 52,
+      "checksum": "b5c9818b67ae7116..."
+    },
+    {
+      "levelId": 11,
+      "difficulty": "MEDIUM",
+      "dimensions": "4x7",
+      "snakes": 4,
+      "obstacles": 2,
+      "minMoves": 16,
+      "parMoves": 28,
+      "explored": 43,
+      "checksum": "5a1283fd33e7ce79..."
+    },
+    {
+      "levelId": 12,
+      "difficulty": "MEDIUM",
+      "dimensions": "4x7",
+      "snakes": 4,
+      "obstacles": 2,
+      "minMoves": 27,
+      "parMoves": 27,
+      "explored": 514,
+      "checksum": "4314bb3af4cc9b82..."
+    },
+    {
+      "levelId": 13,
+      "difficulty": "HARD",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 2,
+      "minMoves": 30,
+      "parMoves": 32,
+      "explored": 255,
+      "checksum": "d4a5dc195a7d34f1..."
+    },
+    {
+      "levelId": 14,
+      "difficulty": "HARD",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 2,
+      "minMoves": 27,
+      "parMoves": 34,
+      "explored": 51,
+      "checksum": "74b13ae8cf6ca617..."
+    },
+    {
+      "levelId": 15,
+      "difficulty": "HARD",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 2,
+      "minMoves": 30,
+      "parMoves": 35,
+      "explored": 108,
+      "checksum": "e8640b56c8621668..."
+    },
+    {
+      "levelId": 16,
+      "difficulty": "HARD",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 2,
+      "minMoves": 34,
+      "parMoves": 36,
+      "explored": 118,
+      "checksum": "c58227d25caadbe6..."
+    },
+    {
+      "levelId": 17,
+      "difficulty": "EXPERT",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 2,
+      "minMoves": 30,
+      "parMoves": 38,
+      "explored": 115,
+      "checksum": "e7c5d9f744de3c59..."
+    },
+    {
+      "levelId": 18,
+      "difficulty": "EXPERT",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 3,
+      "minMoves": 29,
+      "parMoves": 40,
+      "explored": 153,
+      "checksum": "f3bd22b0f8a23635..."
+    },
+    {
+      "levelId": 19,
+      "difficulty": "EXPERT",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 3,
+      "minMoves": 37,
+      "parMoves": 42,
+      "explored": 157,
+      "checksum": "6dfcc18feadb1999..."
+    },
+    {
+      "levelId": 20,
+      "difficulty": "EXPERT",
+      "dimensions": "4x7",
+      "snakes": 5,
+      "obstacles": 3,
+      "minMoves": 26,
+      "parMoves": 45,
+      "explored": 83,
+      "checksum": "20ac92a11794ec3b..."
+    }
+  ]
+}

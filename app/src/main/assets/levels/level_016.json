@@ -1,0 +1,131 @@
+{
+  "levelId": 16,
+  "difficulty": "HARD",
+  "gridWidth": 4,
+  "gridHeight": 7,
+  "exit": {
+    "x": 0,
+    "y": 6,
+    "direction": "SOUTH"
+  },
+  "obstacles": [
+    {
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    }
+  ],
+  "snakes": [
+    {
+      "id": "snake_red",
+      "colorPalette": "RED_STRIPED",
+      "facingDirection": "EAST",
+      "segments": [
+        {
+          "x": 3,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "snake_yellow",
+      "colorPalette": "YELLOW_STRIPED",
+      "facingDirection": "SOUTH",
+      "segments": [
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 1
+        }
+      ]
+    },
+    {
+      "id": "snake_green",
+      "colorPalette": "GREEN_STRIPED",
+      "facingDirection": "WEST",
+      "segments": [
+        {
+          "x": 0,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 3
+        }
+      ]
+    },
+    {
+      "id": "snake_cyan",
+      "colorPalette": "CYAN_STRIPED",
+      "facingDirection": "NORTH",
+      "segments": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 2
+        }
+      ]
+    },
+    {
+      "id": "snake_pink",
+      "colorPalette": "PINK_STRIPED",
+      "facingDirection": "EAST",
+      "segments": [
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 0,
+          "y": 4
+        }
+      ]
+    }
+  ],
+  "parMoves": 36,
+  "schemaVersion": 1,
+  "validationMetadata": {
+    "isSolvable": true,
+    "minimumMoves": 34,
+    "checksumSHA256": "c58227d25caadbe64d7454b0f03c97b2c68a926cd8103776fb3d6bd41a5ababa"
+  }
+}

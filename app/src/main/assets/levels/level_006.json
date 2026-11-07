@@ -1,0 +1,97 @@
+{
+  "levelId": 6,
+  "difficulty": "EASY",
+  "gridWidth": 4,
+  "gridHeight": 7,
+  "exit": {
+    "x": 2,
+    "y": 6,
+    "direction": "SOUTH"
+  },
+  "obstacles": [
+    {
+      "x": 1,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    }
+  ],
+  "snakes": [
+    {
+      "id": "snake_cyan",
+      "colorPalette": "CYAN_STRIPED",
+      "facingDirection": "WEST",
+      "segments": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 1
+        }
+      ]
+    },
+    {
+      "id": "snake_pink",
+      "colorPalette": "PINK_STRIPED",
+      "facingDirection": "SOUTH",
+      "segments": [
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 3
+        }
+      ]
+    },
+    {
+      "id": "snake_yellow",
+      "colorPalette": "YELLOW_STRIPED",
+      "facingDirection": "EAST",
+      "segments": [
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 0,
+          "y": 5
+        },
+        {
+          "x": 0,
+          "y": 4
+        }
+      ]
+    }
+  ],
+  "parMoves": 16,
+  "schemaVersion": 1,
+  "validationMetadata": {
+    "isSolvable": true,
+    "minimumMoves": 14,
+    "checksumSHA256": "84d61cb41cd67b077b46bdac45eabc4f28511be52b34ce818d13491d97d0b76f"
+  }
+}

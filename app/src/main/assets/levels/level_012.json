@@ -1,0 +1,112 @@
+{
+  "levelId": 12,
+  "difficulty": "MEDIUM",
+  "gridWidth": 4,
+  "gridHeight": 7,
+  "exit": {
+    "x": 0,
+    "y": 6,
+    "direction": "SOUTH"
+  },
+  "obstacles": [
+    {
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    }
+  ],
+  "snakes": [
+    {
+      "id": "snake_pink",
+      "colorPalette": "PINK_STRIPED",
+      "facingDirection": "WEST",
+      "segments": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "snake_cyan",
+      "colorPalette": "CYAN_STRIPED",
+      "facingDirection": "SOUTH",
+      "segments": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 1
+        }
+      ]
+    },
+    {
+      "id": "snake_yellow",
+      "colorPalette": "YELLOW_STRIPED",
+      "facingDirection": "EAST",
+      "segments": [
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 3
+        }
+      ]
+    },
+    {
+      "id": "snake_red",
+      "colorPalette": "RED_STRIPED",
+      "facingDirection": "NORTH",
+      "segments": [
+        {
+          "x": 0,
+          "y": 4
+        },
+        {
+          "x": 0,
+          "y": 5
+        },
+        {
+          "x": 0,
+          "y": 6
+        }
+      ]
+    }
+  ],
+  "parMoves": 27,
+  "schemaVersion": 1,
+  "validationMetadata": {
+    "isSolvable": true,
+    "minimumMoves": 27,
+    "checksumSHA256": "4314bb3af4cc9b822929eb30fbbf392d5a50c82a380c2452afb0df6da3fbfa80"
+  }
+}

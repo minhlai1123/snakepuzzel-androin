@@ -1,0 +1,127 @@
+{
+  "levelId": 10,
+  "difficulty": "MEDIUM",
+  "gridWidth": 4,
+  "gridHeight": 7,
+  "exit": {
+    "x": 1,
+    "y": 6,
+    "direction": "SOUTH"
+  },
+  "obstacles": [
+    {
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "shape": "BLOCK_1X1"
+    }
+  ],
+  "snakes": [
+    {
+      "id": "snake_red",
+      "colorPalette": "RED_STRIPED",
+      "facingDirection": "EAST",
+      "segments": [
+        {
+          "x": 3,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "snake_yellow",
+      "colorPalette": "YELLOW_STRIPED",
+      "facingDirection": "SOUTH",
+      "segments": [
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 2
+        }
+      ]
+    },
+    {
+      "id": "snake_cyan",
+      "colorPalette": "CYAN_STRIPED",
+      "facingDirection": "WEST",
+      "segments": [
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 0,
+          "y": 4
+        },
+        {
+          "x": 0,
+          "y": 5
+        }
+      ]
+    },
+    {
+      "id": "snake_pink",
+      "colorPalette": "PINK_STRIPED",
+      "facingDirection": "NORTH",
+      "segments": [
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 5
+        }
+      ]
+    }
+  ],
+  "parMoves": 26,
+  "schemaVersion": 1,
+  "validationMetadata": {
+    "isSolvable": true,
+    "minimumMoves": 18,
+    "checksumSHA256": "b5c9818b67ae7116cd3c98a1dde438ab17f565749f6ce0baf13209a28ef908b2"
+  }
+}
